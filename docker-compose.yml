@@ -1,0 +1,20 @@
+version: "2"
+
+volumes:
+  gems:
+    driver: local
+
+services:
+  gem:
+    image: icalialabs/alom_rails:development
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - .:/code
+      - gems:/usr/local/bundle
+    working_dir: /code
+    tty: true
+    stdin_open: true
+    environment:
+      LC_ALL: C.UTF-8
