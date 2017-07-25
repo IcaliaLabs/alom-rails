@@ -1,41 +1,57 @@
-# Alom
+![alom](https://github.com/IcaliaLabs/alom/raw/master/alombanner.jpg)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/alom`. To experiment with that code, run `bin/console` for an interactive prompt.
+# For Rails Asset Pipeline
 
-TODO: Delete this and the text above, and describe your gem
+Alom is the lighest, simplest framework ever, it will help you to kick up your project without interfering with any style, it is designed to make your life simpler and to help you deal with all the responsive stuff.
 
-## Installation
+The alom gem integrates the Alom framework for Rails 4+ Asset Pipeline.
 
-Add this line to your application's Gemfile:
+## Table of contents
+- [Installing Gem](#installing-gem)
+- [Usage](#usage)
+- [Contributing](#development)
+- [License](#license)
+
+## Installing Gem
+
+You need to only include the `furatto` gem inside your `Gemfile`:
 
 ```ruby
 gem 'alom'
 ```
 
-And then execute:
+or you can install from the latest build:
 
-    $ bundle
+```ruby
+gem 'alom', git: 'git@github.com:IcaliaLabs/alom-rails.git'
+```
 
-Or install it yourself as:
+Install the gem using the bundle command:
 
-    $ gem install alom
+```console
+$ bundle
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+In your application.css, include the css file:
 
-## Development
+```css
+/*
+ *= require alom
+ */
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Or if you're using SASS, go to application.css.scss and add:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```scss
+@import "alom";
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/alom. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/icalicons. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
