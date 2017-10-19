@@ -13,14 +13,14 @@ $asset-base-path: '../assets' !default;
 //Grid settings
 $number-of-columns: 12 !default;
 $offset-columns: $number-of-columns !default;
-$grid-break: 768px !default;
+$grid-break: 768px;
 
 //Responsive Breakpints
-$small: 768px !default;
-$medium: 1024px !default;
-$large: 1140px !default;
-$wide: 4096px !default;
+$small: 768px;
+$medium: 1024px;
+$large: 1140px;
+$wide: 4096px;
 
 //Test
-$test-color: rgba(255, 0, 0, .1) !default;
-$test-border: rgba(255, 0, 0, 1) !default;
+$test-color: rgba(255, 0, 0, .1);
+$test-border: rgba(255, 0, 0, 1);
