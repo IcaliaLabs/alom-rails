@@ -25,6 +25,19 @@
 }
 
 //############################################//
+//##### Pixels to Percentage Function  ######//
+//###########################################//
+//Example background: image('logo.png');
+
+@function asset($type, $file) {
+  @return url($asset-base-path + '/' + $type + '/' + $file);
+}
+
+@function image($file) {
+  @return asset('images', $file);
+}
+
+//############################################//
 //####### Get next value on maps  ########/////
 //###########################################//
 
