@@ -14,7 +14,7 @@ The alom gem integrates the Alom framework for Rails 4+ Asset Pipeline.
 
 ## Installing Gem
 
-You need to only include the `furatto` gem inside your `Gemfile`:
+You need to only include the `alom` gem inside your `Gemfile`:
 
 ```ruby
 gem 'alom'
@@ -50,7 +50,7 @@ Or if you're using SASS, go to application.css.scss and add:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/icalicons. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/alom-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
