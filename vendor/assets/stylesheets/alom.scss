@@ -13,11 +13,11 @@
 //######## Import the core of alom ########//
 //###########################################//
 
-@charset 'utf-8';
-@import 'variables';
-@import 'mixins';
-@import 'functions';
-@import 'reset';
-@import 'grid';
-@import 'utilities';
-@import 'responsive';
+@charset 'alom/utf-8';
+@import 'alom/variables';
+@import 'alom/mixins';
+@import 'alom/functions';
+@import 'alom/reset';
+@import 'alom/grid';
+@import 'alom/utilities';
+@import 'alom/responsive';
